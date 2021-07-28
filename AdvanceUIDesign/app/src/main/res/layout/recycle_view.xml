@@ -42,26 +42,54 @@
             <View
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_marginEnd="72dp"
+                android:layout_marginEnd="96dp"
                 android:background="@drawable/ic_vector_star"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.674" />
+                app:layout_constraintVertical_bias="0.433" />
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="36dp"
+                android:background="@drawable/ic_vector_star"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.373" />
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="84dp"
+                android:background="@drawable/ic_vector_diamond"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.795" />
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="56dp"
+                android:background="@drawable/ic_vector_diamond"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.072" />
 
             <View
                 android:id="@+id/view"
                 android:layout_width="71dp"
                 android:layout_height="46dp"
-                android:layout_marginEnd="4dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="12dp"
                 android:background="@drawable/ic_vector_cone"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.85" />
+                app:layout_constraintEnd_toEndOf="parent" />
 
             <View
-                android:id="@+id/view3"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginEnd="56dp"
@@ -69,28 +97,27 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.438" />
+                app:layout_constraintVertical_bias="0.301" />
 
             <View
-                android:layout_width="38dp"
-                android:layout_height="42dp"
-                android:layout_marginEnd="36dp"
-                android:background="@drawable/ic_vector_moon"
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="56dp"
+                android:background="@drawable/ic_vector_star"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.295" />
+                app:layout_constraintVertical_bias="0.712" />
 
             <View
                 android:id="@+id/view2"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:layout_marginEnd="36dp"
+                android:layout_marginEnd="76dp"
                 android:background="@drawable/ic_vector_diamond"
                 app:layout_constraintBottom_toTopOf="@+id/view"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0" />
+                app:layout_constraintEnd_toEndOf="parent" />
 
             <View
                 android:layout_width="25dp"
@@ -106,7 +133,7 @@
                 android:layout_width="22dp"
                 android:layout_height="21dp"
                 android:layout_marginEnd="20dp"
-                android:background="@drawable/ic_baseline_calendar_today_24"
+                android:background="@drawable/ic_groupcalender"
                 app:layout_constraintBottom_toBottomOf="@+id/date_left"
                 app:layout_constraintEnd_toStartOf="@+id/date_left"
                 app:layout_constraintStart_toStartOf="@+id/name"

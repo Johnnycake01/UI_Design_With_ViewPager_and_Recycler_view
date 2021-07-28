@@ -2,6 +2,7 @@
 <!--layout for view pager content-->
 <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:cardPreventCornerOverlap="false"
@@ -23,24 +24,59 @@
         <View
             android:id="@+id/view4"
             android:layout_width="30dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="10dp"
             android:layout_height="30dp"
-            android:background="@drawable/ic_gift_spill"
-            app:layout_constraintBottom_toBottomOf="@+id/textView"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/ic_groupflower"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.01" />
+            app:layout_constraintTop_toTopOf="@+id/text" />
 
+        <View
+            android:id="@+id/viewPencil"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/ic_vectorpencil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/viewpencilbase"
+            android:layout_width="30dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="14dp"
+            android:background="@drawable/ic_vectorpencilbase"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="112dp"
+            android:fontFamily="@font/cookie_regular"
+            android:gravity="center"
+            android:text="@string/yaay"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="190dp"
-            android:layout_height="wrap_content"
-            android:textAppearance="@style/yeah"
+            android:layout_width="260dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="176dp"
+            android:gravity="center"
+            android:textAppearance="@style/good_morning_style_unique_bold"
             android:textColor="@color/white"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

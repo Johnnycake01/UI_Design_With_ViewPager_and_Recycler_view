@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
          * */
         //lists of contents to populate
         val content = listOf(R.drawable.pexels1,R.drawable.pexels2,R.drawable.pexels3,R.drawable.pexels4)
-        val names = listOf("Yaay! Happy  birthday  Katherina","Yaay!  Happy  birthday  Naomi","Yaay!  Happy  birthday  Chinedu","Yaay!  Happy  birthday  Sarah")
+        val names = listOf("It's Katherina's birthday","It's Naomi's birthday","It's Chinedu's birthday","It's Sarah's birthday")
 
         //call the adapter class and pass in the two list and asign value to list
         val adapter = ViewPagerClass(content,names)
