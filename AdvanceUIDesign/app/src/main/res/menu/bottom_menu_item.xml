@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home"  android:icon="@drawable/ic_outline_home_24"/>
+    <item android:title="@string/people" android:icon="@drawable/ic_outline_person_outline_24" />
+    <item android:title="@string/gift" android:icon="@drawable/ic_gift_card"/>
+</menu>

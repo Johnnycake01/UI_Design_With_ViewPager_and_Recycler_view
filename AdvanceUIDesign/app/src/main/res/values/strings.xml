@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Advance UI Design</string>
+    <string name="good_morning">Good morning!</string>
+    <string name="search_hint">search for celebrants…</string>
+    <string name="home">Home</string>
+    <string name="people">People</string>
+    <string name="gift">Gift</string>
+    <string name="ola_micheal">Ola Micheal</string>
+    <string name="dob">20/10/20</string>
+    <string name="dob_left">30 days left</string>
+    <string name="upcoming_birthdays">Upcoming Birthdays</string>
+    <string name="fab">fab</string>
+</resources>

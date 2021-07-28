@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="good_morning_style">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/custom_black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="good_morning_style_not_bold">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/custom_black</item>
+        <item name="android:textSize">14sp</item></style>
+    <style name="good_morning_style_unique_bold">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/custom_black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="yeah">
+        <item name="android:fontFamily">@font/style_script_regular</item>
+        <item name="android:textColor">@color/custom_black</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>
